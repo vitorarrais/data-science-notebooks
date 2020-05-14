@@ -1,26 +1,43 @@
 # Title
 
-![Beautiful Image of Berlin](images/Am_Brandenburger_Tor.01.jpg)
+<!-- ![Beautiful Image of Berlin](images/Am_Brandenburger_Tor.01.jpg) -->
 
-Berlin, the German capital, is renowned for its wide variety of attractions, its diverse cultural scene and infinite possibilities that excite visitors every single day in the year. Almost 13 million visitors travelled to Berlin in 2017. They spent 31.1 million nights in booked accommodation. Whether you want to host exciting visitors from all around the world or you just want to spent a couple of days in this amazing city, there are interestings facts for you.
+Berlin, the German capital, is renowned for its wide variety of attractions, diverse cultural scene and infinite possibilities that excite visitors every single day in the year. Almost 13 million visitors travelled to Berlin in 2017. They spent 31.1 million nights in booked accommodation. Whether you want to host exciting visitors from all around the world or you just want to spent a couple of days in this amazing city, there are interestings facts for you. Let's take a look on Airbnb open data to find out more.
 
+<!-- ![neukolln](images/KlunkenkranichRooftop_2_slide.jpg) -->
+![neukolln](images/panorama-sonnenuntergang3-web.jpg)
 
-The neighbourhood with more Airbnb offerings is Neukölln with 3539 different accomodations registered in April this year. It is followed by Prenzlauer Berg, Friedrichshain and Kreuzberg, all popular bohemiam neighboorhoods. 
+## Neukölln
+
+The neighbourhood with more Airbnb offerings is **Neukölln** with **3539** different accomodations listed in the platform in April this year. Prenzlauer Berg, Friedrichshain and Kreuzberg follow the lead. What they have in common? They're all popular bohemiam neighboorhoods in the city, with lots of bars and restaurants. That seems to be reason enough to attract many tourists.   
 
 ![png](images/output_33_0.png)
+
+> Neukölln is renowned for its lively mix of the old and new. This excitingly bustling borough is full of contrasts – from its estates of detached houses in the south to the high-rises in the Gropiusstadt neighbourhood and a vibrant multicultural area around the border to Kreuzberg.
+
+* https://www.visitberlin.de/en/districts/neukolln
 
 Neukölln's enormous potential cannot be described without mentioning the challenges that the district faces. In no other Berlin district do so many ethnic groups come together so closely; nowhere else in Berlin there is such a cultural diversity. However, what has long been interpreted as a weakness of Neukölln is increasingly turning out to be strength. The population' s diversity is also expressed in a high level of acceptance for change. The mega-district Neukölln is about to establish itself as a young, impulse-giving and powerful engine in Berlin. In Neukölln you can't watch - you have to keep up. Developments are rapid and not gradual. And unlike before, no new parallel societies are developing, but a young, hungry business culture, from which the established population of Neukölln does not want to be protected, but to profit. Many people recognize the signs and understand that it is not about displacement, but about change. Investors plan coworking spaces and build the necessary apartments for people moving in. Orphaned parking garages are turned into offices, and game halls into functioning retail, catering, office or service structures. The vision for Neukölln is not a protected milieu, but a cosmopolitan, dynamic, real participating community.
 
 * https://guthmann.estate/en/market-report/berlin/neukolln/
 
+![wilmersdorf](images/URW-Forecast-2019-Wilmersdorfer-Arcaden-credit-URW.jpg)
 
-Shown below are the top 5 **most** and **less** expensive neighbourhoods by listing price in average.
+## Wilmersdorf
+
+Wilmersdorf is the most expensive neighbourhood in average by far. Shown below are the top 5 **most** and **less** expensive neighbourhoods by listing price in average.
 
 ![png](images/top_10_neigh.png)
+
+> Locals in Charlottenburg-Wilmersdorf are happy to leave other districts to don the mantle of the party place. They’d rather head the rankings as a touch more elegant and traditionally stylish than elsewhere in Berlin – as you can tell from the side streets of impressive town houses around the Kurfürstendamm boulevard and the resplendent villas in the leafy Grunewald district. This architecture evokes a rich history, while the new buildings set harmoniously in between point the way to the borough’s future. In Charlottenburg-Wilmersdorf, discover the neighbourhoods of one of Berlin’s more laid-back boroughs!
+
+* https://www.visitberlin.de/en/districts/charlottenburg-wilmersdorf
 
 Wilmersdorf is an elegant, bourgeois district without any smugness. The exclusive, partly a bit conservative character is definitely appreciated by the residents. Exclusive quarters can be found in the Grunewald districts, urban neighbourhoods in turn in the inner-city locations of the district. In the 1920s, many artists and intellectuals moved to Wilmersdorf. An attractive and lively downtown with cafés and theatres grew up in the west of Berlin. The noble Grunewald quarter was not far away and was an excellent location for the Berlin Bohemians. The Nazis put an abrupt end to the cultural heyday in Wilmersdorf and many Wilmersdorfers were forced into exile for political reasons or because of their Jewish origins. Today, important scientific and cultural institutions and agencies are located in Wilmersdorf. Numerous galleries are located here, as well as the Schaubühne am Lehniner Platz. Some embassies in Grunewald and Schmargendorf are located in the immediate vicinity of the private residences of their ambassadors.
 
 * https://guthmann.estate/en/market-report/berlin/wilmersdorf/
+
+## Ascending Prices
 
 Over the years, Airbnb prices has increased a lot. 
 
@@ -32,9 +49,33 @@ Sources:
 * https://tradingeconomics.com/germany/housing-index
 * https://guthmann.estate/en/market-report/berlin/#rent
 
-The most popular accomodations are entire apartements, which cover more than 88% of all Airbnb listings in Berlin.
+## Not for Everyone
+
+Are you looking for a comfy cabin in a green area ? Wrong place! The most popular accomodations are entire apartements, which cover more than 88% of all Airbnb listings in Berlin.
 
 ![png](images/output_31_0.png)
+
+## When to Visit
+
+Ok, now you're convinced that berlin is awesome but, when to visit it ? We note on the charts below that prices do not vary much
+throught the year, but the demand grows significantly during the warmer months August and September. You probably won't pay higher in the summer but might encounter a hard time to book a nice apartment in the popular areas like Neukolln or Preuzlauer Berg. 
+
+![png](images/output_45_0.png)
+
+
+![png](images/output_29_0.png)
+
+
+<!-- ![png](images/output_39_0.png) -->
+
+## COVID-19
+
+The pandemic has hit hard the tourism market. It's seen crystal clear in the chart below. 
+
+![png](images/output_42_0.png)
+
+
+---------------------------
 
 ## Kickoff Questions
 1. How do space aspacts influence final review scoring and price ? 
@@ -47,7 +88,6 @@ The most popular accomodations are entire apartements, which cover more than 88%
 
 
 Below is the correlation between aspects of accomadation with overall review score and price.
-
 
 
 ![png](images/output_7_0.png)
@@ -85,20 +125,10 @@ Amenities do not have huge impact on price. Nevertheless, there is a set of esse
 
 
 
-![png](images/output_29_0.png)
-
-
-
-![png](images/output_39_0.png)
-
-
-![png](images/output_42_0.png)
-
-
 We can see that 2020 had a drastic impact because of COVID-19
 
 
-![png](images/output_45_0.png)
+
 
 
 We can observe spikes during the summer, in July, August, September every year. We can also observe a steady increasing in number of reviews per each year, that reveals that increase in Airbnb adoption in Berlin.
