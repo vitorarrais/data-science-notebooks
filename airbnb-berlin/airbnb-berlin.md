@@ -1,4 +1,4 @@
-# Title
+# How to get the most of AirBnB in Berlin
 
 <!-- ![Beautiful Image of Berlin](images/Am_Brandenburger_Tor.01.jpg) -->
 
@@ -39,7 +39,7 @@ Wilmersdorf is an elegant, bourgeois district without any smugness. The exclusiv
 
 ## Ascending Prices
 
-Over the years, Airbnb prices has increased a lot. 
+Over the years, Airbnb prices increased significantly. 
 
 ![png](images/output_22_0.png)
 
@@ -73,6 +73,10 @@ throught the year, but the demand grows significantly during the warmer months A
 The pandemic has hit hard the tourism market. It's seen crystal clear in the chart below. 
 
 ![png](images/output_42_0.png)
+
+
+## Bonus
+
 
 
 ---------------------------
