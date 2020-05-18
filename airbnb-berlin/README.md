@@ -2,6 +2,9 @@
 
 Berlin Airbnb data publicly available at [InsideAirbnb](http://insideairbnb.com/berlin)
 
+# Blog Post
+* https://medium.com/@vitorarrais/how-to-get-the-most-of-airbnb-in-berlin-7543baf29b33
+
 # Findings
 
 1. Avoid Wilmesdorf because is the most expensive neighbourhood by far. 
