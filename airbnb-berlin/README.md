@@ -21,7 +21,7 @@
 
 ## Motivation
 
-In this analisys I've used publicly available data from Airbnb listings in Berlin from 2015 to 2020 to answer following questions:
+In this analysis I've used publicly available data from Airbnb listings in Berlin from 2015 to 2020 to answer following questions:
 1. How does number of rooms influence review scoring and pricing ?
 2. How do amenities impact in the review scoring ?
 3. How did prices evolve over time?
