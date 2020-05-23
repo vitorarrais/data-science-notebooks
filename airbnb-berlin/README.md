@@ -6,8 +6,6 @@
 * Reviews, including unique id for each reviewer and detailed comment
 * Calendar, including listing id and the price and availability for that day
 
-The data publicly available at [InsideAirbnb](http://insideairbnb.com/berlin)
-
 ## Requirements
 
 * python 3.6
@@ -35,8 +33,9 @@ In this analisys I've used publicly available data from Airbnb listings in Berli
 1. Number of rooms do not have relevant correlation with price and review score.
 2. Offered amenities do not have relevant correlation with review score.
 3. Prices are increasing each year, which can a be considered good news if you are a host. Fortunately though, prices increase slowly when compared to housing and renting indexes, which have had lots of speculation in recent years.
-4. Neukolln is the neigh
+4. Neukolln is the neighbourhood with most listings. 
 5. Avoid Wilmesdorf because is the most expensive neighbourhood by far. 
+
 #### Bonus 
 * Book in advance if you’re going to visit Berlin in the summer, AirBnB can be very competitive at this time. 
 * In case you want plenty of diverse options like bars, restaurants and nightclubs, you should stay in Neukölln or Prenzlauer Berg.
@@ -44,3 +43,7 @@ In this analisys I've used publicly available data from Airbnb listings in Berli
 
 ## Blog Post
 * https://medium.com/@vitorarrais/how-to-get-the-most-of-airbnb-in-berlin-7543baf29b33
+
+## Acknowledgment
+
+The data publicly available at [InsideAirbnb](http://insideairbnb.com/berlin)
