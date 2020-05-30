@@ -3,22 +3,28 @@ import pandas as pd
 from sqlalchemy import create_engine
 
 def load_data(messages_filepath, categories_filepath):
+    """
+    Reads the specified csv files and merge them.
+    """
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
-    return categories.merge(messages, left_on='id', right_on='id')
+    return messages.merge(categories, on='id')
 
 
 def clean_data(df):
+    """
+    Return a cleaned dataframe. 
+    """
+    # split categories into separate columns
     categories = pd.DataFrame(df['categories'].str.split(';', expand=True))
     # select the first row of the categories dataframe
     row = categories.iloc[0]
 
-    # use this row to extract a list of new column names for categories.
-    # one way is to apply a lambda function that takes everything 
-    # up to the second to last character of each string with slicing
+    # transform column names by deleting numrical posfix
     category_colnames = row.apply(lambda s: s[:-2])
-
     categories.columns = category_colnames
+
+    # transform categories values into 0's and 1's
     for column in categories:
         series_as_string = categories[column].astype(str)
         # set each value to be the last character of the string
@@ -32,12 +38,18 @@ def clean_data(df):
     
     # concatenate the original dataframe with the new `categories` dataframe
     df = pd.concat([df,categories], axis=1)
-    df = df.drop_duplicates(subset=['original'])
+
+    # drop duplicates
+    df = df.drop_duplicates()
+
     return df
 
 def save_data(df, database_filename):
+    """
+    Save a dataframe to a sql database.
+    """
     engine = create_engine(f'sqlite:///{database_filename}')
-    df.to_sql('InsertTableName', engine, index=False)
+    df.to_sql('Messages', engine, index=False)
 
 
 def main():
