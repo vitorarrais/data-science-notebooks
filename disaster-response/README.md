@@ -2,7 +2,7 @@
 
 ## Overview
 
-In this project I've built a data pipeline to analyze a dataset that contains real messages sent during disaster events. 
+In this project I've built a etl/ml pipeline to analyze a dataset that contains real messages sent during disaster events. 
 
 ## Components
 
