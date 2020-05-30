@@ -6,6 +6,7 @@ def load_data(messages_filepath, categories_filepath):
     """
     Reads the specified csv files and merge them.
     """
+
     messages = pd.read_csv(messages_filepath)
     categories = pd.read_csv(categories_filepath)
     return messages.merge(categories, on='id')
@@ -15,12 +16,13 @@ def clean_data(df):
     """
     Return a cleaned dataframe. 
     """
+
     # split categories into separate columns
     categories = pd.DataFrame(df['categories'].str.split(';', expand=True))
     # select the first row of the categories dataframe
     row = categories.iloc[0]
 
-    # transform column names by deleting numrical posfix
+    # transform column names by deleting numerical postfix
     category_colnames = row.apply(lambda s: s[:-2])
     categories.columns = category_colnames
 
@@ -48,6 +50,7 @@ def save_data(df, database_filename):
     """
     Save a dataframe to a sql database.
     """
+    
     engine = create_engine(f'sqlite:///{database_filename}')
     df.to_sql('Messages', engine, index=False)
 

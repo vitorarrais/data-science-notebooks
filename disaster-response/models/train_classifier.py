@@ -6,6 +6,7 @@ nltk.download(['punkt', 'wordnet', 'stopwords'])
 import pandas as pd
 import numpy as np
 import re
+import pickle
 from sqlalchemy import create_engine
 from nltk.tokenize import word_tokenize
 from sklearn.pipeline import Pipeline
@@ -23,13 +24,11 @@ from nltk.stem import WordNetLemmatizer
 from sklearn.svm import LinearSVC
 
 
-
-import pickle
-
 def load_data(database_filepath):
     """
     Load data from sql database and split it into X, y and classes.
     """
+
     engine = create_engine(f'sqlite:///{database_filepath}')
     df = pd.read_sql_table('Messages', engine)
     X = df['message']
@@ -83,6 +82,7 @@ def display_results(cv, y_test, y_pred):
     """
     Print out a confusion matrix, accuracy and best parameters.
     """
+
     labels = np.unique(y_pred)
     confusion_mat = confusion_matrix(y_test, y_pred, labels=labels)
     accuracy = (y_pred == y_test).mean()
@@ -116,7 +116,7 @@ def save_model(model, model_filepath):
     """
     Saves a model as a pickle file.
     """
-    
+
     with open(model_filepath, 'wb') as pickle_file:
         pickle.dump(model, pickle_file)
 
