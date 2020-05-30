@@ -27,7 +27,7 @@ def tokenize(text):
 
 # load data
 engine = create_engine('sqlite:///../data/DisasterResponse.db')
-df = pd.read_sql_table('InsertTableName', engine)
+df = pd.read_sql_table('Messages', engine)
 
 # load model
 model = joblib.load("../models/classifier.pkl")
@@ -75,7 +75,7 @@ def index():
             ],
 
             'layout': {
-                'title': 'Distribution of Categories'
+                'title': 'Distribution of Categories',
                 'yaxis': {
                     'title': "Count"
                 },
@@ -98,7 +98,7 @@ def index():
 @app.route('/go')
 def go():
     # save user input in query
-    query = request.args.get('query', '') 
+    query = request.args.get('query', '')
 
     # use model to predict classification for query
     classification_labels = model.predict([query])[0]

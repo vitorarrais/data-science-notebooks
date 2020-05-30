@@ -1,6 +1,31 @@
 # Disaster Response Pipeline Project
 
-### Instructions:
+## Overview
+
+In this project I've built a data pipeline to analyze a dataset that contains real messages sent during disaster events. 
+
+## Components
+
+### ETL Pipeline
+
+Loads data from csv files and cleans the data. See [process_data.py](https://github.com/vitorarrais/data-science-notebooks/blob/master/disaster-response/data/process_data.py)
+
+### ML Pipeline
+
+Apply various NLP algorithms for feature engineering and builds a classifier that categorizes unseen messages. See [train_classifier.py](https://github.com/vitorarrais/data-science-notebooks/blob/master/disaster-response/data/process_data.py)
+
+### Web App
+
+A Flask application where the user can put messages to be categorized and then display the results. See [app/](https://github.com/vitorarrais/data-science-notebooks/tree/master/disaster-response/app)
+
+### UI
+
+![dataset](assets/dataset.png)
+
+![classification](assets/classification.png)
+
+
+## Running
 1. Run the following commands in the project's root directory to set up your database and model.
 
     - To run ETL pipeline that cleans data and stores in database
