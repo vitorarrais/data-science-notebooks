@@ -12,7 +12,7 @@ Loads data from csv files and cleans the data. See [process_data.py](https://git
 
 ### ML Pipeline
 
-Apply various NLP algorithms for feature engineering and builds a classifier that categorizes unseen messages. See [train_classifier.py](https://github.com/vitorarrais/data-science-notebooks/blob/master/disaster-response/data/process_data.py)
+Apply various NLP algorithms for feature engineering and builds a classifier that categorizes unseen messages. See [train_classifier.py](https://github.com/vitorarrais/data-science-notebooks/blob/master/disaster-response/models/train_classifier.py)
 
 ### Web App
 
