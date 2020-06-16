@@ -10,6 +10,22 @@ In this project I built a recommendation model of offers for Starbucks customers
 
 `starbucks.ipynb`
 
+## Dependencies 
+
+```
+import pandas as pd
+import numpy as np
+import math
+import json
+import random
+import matplotlib.pyplot as plt
+from datetime import date, datetime
+```
+
+## Running
+
+Use the notebook to run in your local machine. You're going to need jupyter installed.
+
 ## Data Sets
 
 Data sets are in the data folder.
