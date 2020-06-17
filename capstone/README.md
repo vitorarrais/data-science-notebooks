@@ -4,6 +4,10 @@
 
 In this project I built a recommendation model of offers for Starbucks customers.
 
+## Blog Post
+
+* https://vitorarrais.github.io/
+
 ## Problem Statement
 
 The problem is formulated around a recommendation problem, where Starbucks wants to find the best offers for its costumers. In Starbucks stand point, a good recommendation engine is desirable because it will avoid spamming offers to customer that won't buy them. Additionally, it increases the chance of tailoring good offers to customers with higher chances to buy them. That will potentially increase the offer conversion rate, and lead to a increase in sells too.
